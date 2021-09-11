@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(56, 57, 68);
+    user-select: none;
+}
+
+.green-text{
+    color: rgb(58, 206, 144);
+}
+
+.d-flex{
+    height: 100vh;
+    font-family: 'Nerko One', cursive;
+}
+
+.title{
+    font-size: 90px;
+}
+
+.game-section{
+    max-width: 450px;
+}
+
+.game-card p{
+    font-size: 25px;
+    margin-bottom: 30px;
+    transition: 0.1s ease;
+}
+
+.play-button{
+    display: inline-block;
+    cursor: pointer;
+    font-size: 60px;
+    transition: 0.05s ease-in-out;
+}
+
+.play-button:hover{
+    color:rgb(18, 233, 143);
+}
+
+.play-button-active{
+    transform: scale(0.85);
+}
+
+.winner{
+    transform: scale(1.5);
+    color: rgb(145, 255, 0);
+}
+
+footer p{
+    color: white;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 700px){
+    .container{
+        max-width: 600px;
+    }
+}

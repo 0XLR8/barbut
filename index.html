@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Barbut</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/style.css">
+ 
+</head>
+<body>
+    
+    <div class="container py-md-5 py-2 text-center d-flex flex-column justify-content-between">
+        <div>
+            <h1 class="title green-text mb-5">Barbut</h1>
+            <div class="game-section mx-auto mb-4">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="game-card m-sm-3 m-1">
+                            <p id="player1" class="green-text">Player 1</p>
+                            <img id="dice-1" class="w-100 dice-img" src="images/dice3.png">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="game-card m-sm-3 m-1">
+                            <p id="player2" class="green-text">Player 2</p>
+                            <img id="dice-2" class="w-100 dice-img" src="images/dice5.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="score">
+                <span id="play" class="play-button green-text">Roll</span>
+            </div>
+
+        </div>
+
+        <footer>
+            <p>Application made by XLR.</p>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="script/script.js"></script>
+
+</body>
+</html>
